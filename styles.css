@@ -36,7 +36,7 @@ html{
     font-size: 2.9rem;
     font-weight: 600;
     text-decoration: none;
-    color: #FFD700;
+    color: #04dcf8;
     transform: translateX(-100%);
     opacity: 0;
     animation: RightSlide 1s ease forwards;
@@ -81,7 +81,7 @@ html{
     }
 }
 .navbar a:hover,.navbar a.active{
-    color: #FFD700;
+    color: #04dcf8;
 }
 section{
     padding: 10rem 9% 2rem;
@@ -117,8 +117,8 @@ section{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px #FFD700;
-    background: linear-gradient(#FFD700,#FFD700);
+    -webkit-text-stroke: .7px #04dcf8;
+    background: linear-gradient(#04dcf8,#04dcf8);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -33rem 0;
@@ -143,7 +143,7 @@ section{
     top: 0;
     height: 100%;
     width: 0;
-    border-right: 2px solid #FFD700;
+    border-right: 2px solid #04dcf8;
     transform: translateY(-100px);
     opacity: 0;
     animation: CursorSlide 6s linear infinite,
@@ -236,7 +236,7 @@ section{
     height: 300%;
     width: 100%;
     background: linear-gradient(
-        #0f0a0a,#FFD700,#0f0a0a,#FFD700
+        #0f0a0a,#04dcf8,#0f0a0a,#04dcf8
     );
     z-index: -1;
     transition: .5s ease;
@@ -283,7 +283,7 @@ section{
     height: 300%;
     width: 100%;
     background: linear-gradient(
-        #0f0a0a,#FFD700,#0f0a0a,#FFD700
+        #0f0a0a,#04dcf8,#0f0a0a,#04dcf8
     );
     z-index: -1;
     transition: .5s ease;
@@ -298,7 +298,7 @@ i:hover::after{
     background: rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     border-radius: 60%;
-    filter: drop-shadow(0 0 8rem #FFD700);
+    filter: drop-shadow(0 0 8rem #04dcf8);
     animation: Scale 1s ease forwards;
     scale: 0;
     animation-delay: 2s;
@@ -342,7 +342,7 @@ section.start-animation .title{
     }
 }
 .title span{
-    color: #FFD700;
+    color: #04dcf8;
 }
 .about img{
     height: 25rem;
@@ -350,7 +350,7 @@ section.start-animation .title{
     background: rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #FFD700);
+    filter: drop-shadow(0 0 8rem #04dcf8);
     scale: 0;
 }
 section.start-animation .aboutImg{
@@ -461,14 +461,14 @@ section.start-animation .column h2{
 }
 
 .box{
-    border-left: .2rem solid #FFD700;
+    border-left: .2rem solid #04dcf8;
 }
 .education-content {
     padding-left: 1.9rem;
 }
 .education-content .content{
     padding: 1.5rem;
-    border: .2rem solid #FFD700;
+    border: .2rem solid #04dcf8;
     background: rgba(255,255,255,.1);
     border-radius: .5rem;
     margin-bottom: 2rem;
@@ -482,14 +482,14 @@ section.start-animation .column h2{
     height: 1.4rem;
     width: 1.4rem;
     border-radius: 50%;
-    background: #FFD700;
+    background: #04dcf8;
 }
 .content .year{
     font-size: 1.5rem;
-    color: #FFD700;
+    color: #04dcf8;
 }
 .content .year i{
-    color: #FFD700;
+    color: #04dcf8;
     font-size: 1.5rem;
     margin-left: .5rem;
 }
@@ -567,7 +567,7 @@ section.start-animation .skill-box2{
 .bar{
     position: absolute;
     height: 100%;
-    background: #FFD700;
+    background: #04dcf8;
 }
 .bar-1{
     width: 90%;
@@ -613,7 +613,7 @@ section.start-animation input:nth-child(2){
     border: .2rem solid rgba(255,255,255,.3);
     outline: none;
     backdrop-filter: blur(10px);
-    filter: drop-shadow(0 0 100px #FFD700);
+    filter: drop-shadow(0 0 100px #04dcf8);
     border-radius: .8rem;
     gap: 2.5rem;
     margin: .7rem 0;
@@ -634,11 +634,11 @@ input::placeholder{
 }
 input:focus,
 input:valid{
-    border: .2rem solid #FFD700;
+    border: .2rem solid #04dcf8;
 }
 textarea:focus,
 textarea:valid{
-    border: .2rem solid #FFD700;
+    border: .2rem solid #04dcf8;
 }
 textarea{
     resize: none;
@@ -654,9 +654,9 @@ section.start-animation .btn{
     animation-delay: 1.4s;
 }
 .contact .btn:hover{
-    background: #FFD700;
-    box-shadow: 0 0 .3rem #FFD700,
-    0 0 .7rem #FFD700;
+    background: #04dcf8;
+    box-shadow: 0 0 .3rem #04dcf8,
+    0 0 .7rem #04dcf8;
 }
 /* footer */
 
@@ -676,7 +676,7 @@ footer i{
     justify-content: center;
     align-items: center;
     padding: .8rem; 
-    background: #FFD700;
+    background: #04dcf8;
     color: #0f0a0a;
     border-radius: 50%;
     font-size: 2.4rem;
